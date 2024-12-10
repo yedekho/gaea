@@ -1,0 +1,67 @@
+@import '@nativescript/theme/css/core.css';
+@import '@nativescript/theme/css/default.css';
+
+Page {
+    background-color: #4a90e2;
+}
+
+.game-container {
+    width: 100%;
+    height: 100%;
+}
+
+.bird {
+    width: 40;
+    height: 30;
+    background-image: url('~/assets/bird.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pipe {
+    background-image: url('~/assets/pipe.png');
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+}
+
+.score-label {
+    font-size: 32;
+    color: white;
+    text-align: center;
+    margin-top: 20;
+}
+
+.high-score-label {
+    font-size: 16;
+    color: #FFD700;
+    text-align: center;
+}
+
+.game-over {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20;
+    border-radius: 10;
+    vertical-align: center;
+    horizontal-align: center;
+}
+
+.game-over-title {
+    color: #FF4136;
+    font-size: 24;
+    text-align: center;
+    margin-bottom: 15;
+}
+
+.restart-button {
+    background-color: #2ECC40;
+    color: white;
+    padding: 10 20;
+    border-radius: 5;
+    margin-top: 10;
+}
+
+.medal {
+    font-size: 24;
+    text-align: center;
+    margin: 10 0;
+}
